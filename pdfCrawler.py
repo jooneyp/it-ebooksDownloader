@@ -26,7 +26,7 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 
 start = 0
-end = 5000
+end = 100 #<- put id-number here
 
 for i in xrange(start, end) :
 	down(i)
